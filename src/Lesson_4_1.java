@@ -4,7 +4,7 @@ public class Lesson_4_1 {
     public static int bossHealth = 700;
     public static int bossDamage = 50;
     public static String bossDefence;
-    public static String[] heroesAttackType = {"Physical", "Magical", "Kinetic","Medic",};
+    public static String[] heroesAttackType = {"Physical", "Magical", "Kinetic","Medic"};
     public static int[] heroesHealth = {280, 270, 250,200};
     public static int[] heroesDamage = {20, 10, 15, 0};
     public static int roundNumber;
@@ -119,8 +119,3 @@ public static void medicheal1(){
 }
 
 
-//**Добавить n-го игрока, Golem, который имеет увеличенную жизнь но слабый удар. Принимает на себя 1/5 часть урона исходящего от босса по другим игрокам.
-//        **Добавить n-го игрока, Lucky, имеет шанс 25% уклонения от ударов босса.
-//        **Добавить еще игрока Witcher, не наносит урон боссу, но получает урон от босса. Имеет 1 шанс оживить первого погибшего героя, отдав ему свою текущую жизнь, при этом погибает сам.
-//        *Добавить n-го игрока, Thor, удар по боссу имеет шанс 50% оглушить босса на 1 раунд, вследствие чего босс пропускает 1 раунд и не наносит урон героям.
-// random.nextBoolean(); - true, false
